@@ -21,7 +21,7 @@ function CurrentSetup() {
   return (
     <div>
       <h2>Current Skateboard Setup:</h2>
-      <ul>
+      <ul style={{listStylePosition: 'inside'}}>
         <li><strong>Deck:</strong> {setup.deck}</li>
         <li><strong>Trucks:</strong> {setup.trucks}</li>
         <li><strong>Wheels:</strong> {setup.wheels}</li>
