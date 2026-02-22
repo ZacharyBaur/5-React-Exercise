@@ -1,5 +1,13 @@
 import './App.css'
 
+const setup = {
+  deck: 'WKND - Nikolai Piombo Pro Model (8.25)'
+  trucks: 'Independent - 141 Hollow'
+  wheels: 'Spitfire - Formula Four Classic (56mm, 96)'
+  bearings: 'Bones - Red Bearings'
+  griptape: 'Mob - Grip Tape'
+};
+
 function App() {
   return (
     <>
