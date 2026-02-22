@@ -52,14 +52,25 @@ function SkateVideoPlayer() {
   );
 }
 
+function SkateNews() {
+  return (
+    <div>
+      <h2>Latest Skateboarding News</h2>
+      <h3>Mike Mo's Professional Skateboarding League (PSL) Begins!</h3>
+      <p>Veteran pro skater Mike Mo Capaldi has launched the new Professional Skateboarding League (PSL), a team-based competition aimed at reshaping how pro skate contests are judged and watched. Debuting in early 2026, the league features head-to-head matchups between squads of elite street skaters competing without traditional judges, instead using a simplified scoring system designed to be more objective and accessible to fans. Events are held weekly inside a custom arena, with organizers hoping the format will attract both core skate audiences and newcomers by emphasizing clear rules, team rivalries, and fast-paced battles. Supporters say the PSL could mark a major shift away from subjective scoring systems that have long dominated professional skateboarding.</p>
+    </div>
+  )
+};
+
 function App() {
   return (
     <>
       <h1 className="title">
-        This site is dedicated to keepign track of Zachary Baur's current skateboard setup!
+        This site is dedicated to keeping track of Zachary Baur's current skateboard setup, some good skate video suggestions, and a hub for all skateboarding news!
       </h1>
       <CurrentSetup />
       <SkateVideoPlayer />
+      <SkateNews />
     </>
   )
 }
